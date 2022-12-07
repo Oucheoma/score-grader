@@ -1,0 +1,35 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var name=prompt("What is your name?")
+        console.log(`Hello ${name} and welcome!`)
+
+        var myscore=prompt("What was your mark?")
+        if(myscore <= 100 && myscore >= 80){
+            console.log("A")
+        }else if(myscore <= 79 && myscore >=60){
+            console.log("B")
+        }else if (myscore <=59 && myscore >=40){
+            console.log("C")
+        
+        }else if (myscore <= 40 && myscore >=1){
+            console.log("F")
+            
+        }else if(myscore <=0){
+            console.log("Input your mark")
+        }   // to make it show "input your mark" when a nothing is written
+        else{
+            console.log("Input your mark")
+        } // to make it show "input your mark" when a number that or anything outside the range of 100 and 0
+
+    </script>
+</body>
+</html>
+    
