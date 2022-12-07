@@ -1,4 +1,5 @@
 # score-grader
+score-grader console application
 
 this allows user to input their name and their score (which is graded over 100)
 any score between 100 and 80 is an A
